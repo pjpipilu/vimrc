@@ -38,13 +38,11 @@ inoremap [ <c-r>=AutoPair('[', ']')<CR>
 inoremap ] <c-r>=ClosePair(']')<CR>
 inoremap " <c-r>=SamePair('"')<CR>
 inoremap ' <c-r>=SamePair("'")<CR>
-inoremap ` <c-r>=SamePair('`')<CR>>'')>>"'")>'>'"')>">'')>>''']')>]>'')>>'''}')>}>'')>>''')')>)">"'')]">"'''')])'')''))">"'')]''))">"'''')])'')''))
 "换行自动缩进
 set autoindent
 "针对C语言自动缩进
 set cindent
 
-"插入模式下上下左右移动光标
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
